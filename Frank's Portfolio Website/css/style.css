@@ -102,6 +102,7 @@ a:hover {
 
 .btn:hover {
     transform: scale(1.1);
+    color: var(--clr-dark);
 }
 
 /* Typography */
@@ -438,6 +439,11 @@ header {
 }
 
 /* Footer */
+
+.footer-h2 {
+    color: var(--clr-light);
+    font-weight: var(--fw-reg);
+}
 
 .footer {
     background: #111;
